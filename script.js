@@ -1,5 +1,5 @@
 var n=10;
-for(var i=1;i<10;i++){
+for(var i=1;i<100;i++){
     fetch(`https://dog-api.kinduff.com/api/facts?number=${i}`)
     .then((res)=>res.json())
     .then((data)=>Data(data))
